@@ -12,8 +12,8 @@ module.exports = {
   // not need to change anything here if you can authenticate with your personal Microsoft account with OneDrive International.
   //clientId: '34a26ae5-0e64-44e7-ab6e-f904a842ae39',
   //obfuscatedClientSecret: 'U2FsdGVkX1+RiyjS1FpUHYhBnNuPcjMvYTtd7Jf85EXKVy3czE4wr5sDEB5WqbD2HMBbxL7g3tmznD17kXyUxQ==',
-  clientId: "d87bcc39-1750-4ca0-ad54-f8d0efbb2735",
-  obfuscatedClientSecret: "U2FsdGVkX1830zo3/pFDqaBCVBb37iLw3WnBDWGF9GIB2f4apzv0roemp8Y+iIxI3Ih5ecyukqELQEGzZlYiWg=="
+  clientId: "34a26ae5-0e64-44e7-ab6e-f904a842ae39",
+  obfuscatedClientSecret: "U2FsdGVkX19VNxQ7kLa2qXlC+BuEC8ONBYZA3XGYjMdcYEFSozreNpEOP7Myk92krFI+V1RxTcBnW56TYW4+SA=="
 
   // The redirectUri is the URL that the user will be redirected to after they have authenticated with Microsoft Graph API.
   // Likewise, you would not need to change redirectUri if you are using your personal Microsoft account with OneDrive International.
@@ -21,10 +21,10 @@ module.exports = {
 
   // These are the URLs of the OneDrive API endpoints. You would not need to change anything here if you are using OneDrive International
   // or E5 Subscription OneDrive for Business. You may need to change these if you are using OneDrive 世纪互联.
-  //authApi: 'https://login.microsoftonline.com/common/oauth2/v2.0/token',
-  //driveApi: 'https://graph.microsoft.com/v1.0/me/drive',
-  authApi: "https://login.partner.microsoftonline.cn/common/oauth2/v2.0/token",
-  driveApi: "https://microsoftgraph.chinacloudapi.cn/v1.0/me/drive",
+  authApi: 'https://login.microsoftonline.com/common/oauth2/v2.0/token',
+  driveApi: 'https://graph.microsoft.com/v1.0/me/drive',
+//   authApi: "https://login.partner.microsoftonline.cn/common/oauth2/v2.0/token",
+//   driveApi: "https://microsoftgraph.chinacloudapi.cn/v1.0/me/drive",
 
   // The scope we require are listed here, in most cases you would not need to change this as well.
   scope: 'user.read files.read.all offline_access',
